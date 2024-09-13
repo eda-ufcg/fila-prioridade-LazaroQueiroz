@@ -16,4 +16,10 @@ public class Pair {
 	public int getPrioridade() {
 		return this.prioridade;
 	}
+
+  public String toString() {
+    return "<"+getPrioridade()+", "+getElemento()+">";
+  }
 }
+
+
